@@ -1,12 +1,13 @@
 import React,  {Component}  from 'react';
 import { View } from 'react-native';
-import SignUp  from './components/SignUp'
+import SwipeFunction from './components/SwipeFunction';
+
 //this file is the nagavation file
 class App extends Component{
   render(){
     return (
       <View>
-        <SignUp />
+        <SwipeFunction />
       </View>
     );
   }

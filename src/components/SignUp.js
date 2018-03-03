@@ -7,7 +7,7 @@ class SignUp extends Component {
   render(){
     return (
       <Input
-        label='something'
+        label='Input box'
         placeholder='name'
         value='value'
       />

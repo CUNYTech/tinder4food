@@ -13,7 +13,7 @@ import {
 
 const {width, height} = Dimensions.get('window');
 
-export default class Cards extends Component {
+class SwipeCard extends Component {
   componentWillMount(){
     this.pan = new Animated.ValueXY()
 

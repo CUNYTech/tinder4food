@@ -1,9 +1,8 @@
-import Expo from 'expo';
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import Card from './src/components/common';
+import SwipeCard from './SwipeCard';
 
-export default class App extends Component {
+class SwipeFunction extends Component {
 
   state = {
     profileIndex: 0,
@@ -20,7 +19,7 @@ export default class App extends Component {
       <View style={{flex:1}}>
         {profiles.slice(profileIndex,profileIndex + 1).reverse().map((profile) => {
           return(
-            <Card
+            <SwipeCard
               key={profile.id}
               profile={profile}
               onSwipeOff={this.upcomingCard}
