@@ -21,6 +21,4 @@ dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTJSStackFrame.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTJSStackFrame.h

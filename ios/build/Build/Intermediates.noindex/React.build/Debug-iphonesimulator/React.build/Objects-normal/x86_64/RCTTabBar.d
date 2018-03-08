@@ -23,5 +23,6 @@ dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTView.h \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTWrapperViewController.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/UIView+React.h

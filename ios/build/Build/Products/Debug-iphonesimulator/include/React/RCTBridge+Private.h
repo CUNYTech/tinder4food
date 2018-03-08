@@ -168,12 +168,6 @@ RCT_EXTERN void RCTVerifyAllModulesExported(NSArray *extraModules);
 
 @end
 
-@interface RCTBridge (Inspector)
-
-@property (nonatomic, readonly, getter=isInspectable) BOOL inspectable;
-
-@end
-
 @interface RCTBatchedBridge : RCTBridge <RCTInvalidating>
 
 @property (nonatomic, weak, readonly) RCTBridge *parentBridge;

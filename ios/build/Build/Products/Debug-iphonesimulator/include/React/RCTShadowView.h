@@ -55,6 +55,7 @@ typedef void (^RCTApplierBlock)(NSDictionary<NSNumber *, UIView *> *viewRegistry
 @property (nonatomic, weak, readonly) RCTShadowView *superview;
 @property (nonatomic, assign, readonly) YGNodeRef yogaNode;
 @property (nonatomic, copy) NSString *viewName;
+@property (nonatomic, strong) UIColor *backgroundColor; // Used to propagate to children
 @property (nonatomic, copy) RCTDirectEventBlock onLayout;
 
 /**
@@ -170,6 +171,11 @@ typedef void (^RCTApplierBlock)(NSDictionary<NSNumber *, UIView *> *viewRegistry
 @property (nonatomic, assign) float aspectRatio;
 
 /**
+ * z-index, used to override sibling order in the view
+ */
+@property (nonatomic, assign) NSInteger zIndex;
+
+/**
  * Interface direction (LTR or RTL)
  */
 @property (nonatomic, assign) YGDirection direction;
@@ -246,7 +252,7 @@ typedef void (^RCTApplierBlock)(NSDictionary<NSNumber *, UIView *> *viewRegistry
 
 /**
  * Returns whether or not this node acts as a leaf node in the eyes of Yoga.
- * For example `RCTTextShadowView` has children which it does not want Yoga
+ * For example `RCTShadowText` has children which it does not want Yoga
  * to lay out so in the eyes of Yoga it is a leaf node.
  * Defaults to `NO`. Can be overridden in subclasses.
  * Don't confuse this with `canHaveSubviews`.

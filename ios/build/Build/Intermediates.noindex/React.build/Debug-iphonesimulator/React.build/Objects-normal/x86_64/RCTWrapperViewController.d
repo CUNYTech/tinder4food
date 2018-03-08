@@ -1,6 +1,7 @@
 dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTWrapperViewController.m \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTWrapperViewController.h \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTBridgeDelegate.h \

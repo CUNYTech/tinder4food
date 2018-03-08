@@ -25,5 +25,4 @@ dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTNavigator.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTUIManager.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTRootView.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTRootView.h

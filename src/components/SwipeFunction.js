@@ -1,12 +1,29 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
+import axios from 'axios';
 import SwipeCard from './SwipeCard';
+
+const config = {
+  headers: {'Authorization': 'Bearer 8PFnRjBdeczBvlqjph1bzECWVbJDj_p4wpjf1fHFinCrNBfw5bjhsRF60TpwjjEQoyEesUm8vjG8taEzjXxI1XIRNYiPm8akqUgjxk6gUaVGMnKvsic8zIy-XfeYWnYx'},
+  params: {
+    term: 'food',
+    location: 'NewYork'
+    // price
+
+  },
+};
 
 class SwipeFunction extends Component {
 
-  state = {
-    profileIndex: 0,
-  }
+  state = { places: [], profileIndex: 0 };
+
+
+  componentWillMount() {
+    axios.get('https://api.yelp.com/v3/businesses/search', config)
+    .then((data) => {  console.log( data )})
+      .catch((err) => { console.log('error'+err)});
+    }
+
 
   upcomingCard = () => {
     this.setState({profileIndex: this.state.profileIndex + 1});
@@ -16,19 +33,19 @@ class SwipeFunction extends Component {
     const {profileIndex} = this.state;
 
     return (
-      <View style={{flex:1}}>
-        {profiles.slice(profileIndex,profileIndex + 1).reverse().map((profile) => {
-          return(
-            <SwipeCard
-              key={profile.id}
-              profile={profile}
-              onSwipeOff={this.upcomingCard}
-            />
-          )
-        })}
-      </View>
-    );
-  }
+     <View style={{flex:1}}>
+       {profiles.slice(profileIndex,profileIndex + 1).reverse().map((profile) => {
+         return(
+           <SwipeCard
+             key={profile.id}
+             profile={profile}
+             onSwipeOff={this.upcomingCard}
+           />
+         )
+       })}
+     </View>
+   );
+ }
 }
 
 const profiles = [

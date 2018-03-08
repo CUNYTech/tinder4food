@@ -15,7 +15,6 @@ dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowViewDelegate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTShadowView+Layout.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTUIManagerUtils.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTAssert.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h

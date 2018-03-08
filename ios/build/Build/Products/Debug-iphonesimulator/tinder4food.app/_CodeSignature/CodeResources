@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		sQWwsvPtkTP93RvuxHVYJLma9nA=
+		gm2G9tNrBv7OTrsDt7qHkfOYT+4=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>PlugIns/tinder4foodTests.xctest.dSYM/Contents/Resources/DWARF/tinder4foodTests</key>
 		<data>
-		UGfKqdxHiof4GD7lDlIFzrX4UL8=
+		E7pe4aOVvWuK497issRoXPGzOaA=
 		</data>
 		<key>PlugIns/tinder4foodTests.xctest/Info.plist</key>
 		<data>
@@ -75,7 +75,7 @@
 		</data>
 		<key>PlugIns/tinder4foodTests.xctest/tinder4foodTests</key>
 		<data>
-		Mz+gXbtlQbFLS9LZaCQyTBNB28Q=
+		5HYoQpzlWEsE69EOSmLvQg8LXDY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sQWwsvPtkTP93RvuxHVYJLma9nA=
+			gm2G9tNrBv7OTrsDt7qHkfOYT+4=
 			</data>
 			<key>hash2</key>
 			<data>
-			6pAWKiNtcJYVn90k8WhvrduZShVZfqfYpcdX1WOjB3s=
+			ow7rUGl76MRIuT4YR+LRzofAj1Ukom7Jty80CzOUEBM=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,11 +207,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UGfKqdxHiof4GD7lDlIFzrX4UL8=
+			E7pe4aOVvWuK497issRoXPGzOaA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jpCYjhD0vqZR4t3BX7z3OXrC6caaS+j0AX9caHgH6B4=
+			Lqilu4FLg25D6gVOI9XQ555DNYRaOSjiyp4fPLTykJk=
 			</data>
 		</dict>
 		<key>PlugIns/tinder4foodTests.xctest/Info.plist</key>
@@ -240,11 +240,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mz+gXbtlQbFLS9LZaCQyTBNB28Q=
+			5HYoQpzlWEsE69EOSmLvQg8LXDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			WkZFYymlten8KZHaU4lpcplPbrIOzydfbxT+3+OIOGA=
+			fmeomZm00Zvf0CSjCqtPb+t0S1eEhV/BH4XM6zBxD40=
 			</data>
 		</dict>
 	</dict>

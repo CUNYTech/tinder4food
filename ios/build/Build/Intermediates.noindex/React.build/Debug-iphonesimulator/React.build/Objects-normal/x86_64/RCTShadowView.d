@@ -21,6 +21,6 @@ dependencies: \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTPointerEvents.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h \
   /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/UIView+Private.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/UIView+React.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h

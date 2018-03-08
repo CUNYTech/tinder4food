@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
   /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
