@@ -67,12 +67,12 @@ class SwipeCard extends Component {
         style={[styles.card, animatedStyle]}>
         <Image
           style={styles.ImageStyle}
-          source={{uri:this.props.profile.imageURL}}
+          source={{uri:this.props.place.image_url}}
         />
 
         <View style={styles.CardDescriptionStyles}>
-          <Text style={{fontSize:25}}>{this.props.profile.name}</Text>
-          <Text style={{fontSize:15,color:'blue',}}>{this.props.profile.bio}</Text>
+          <Text style={{fontSize:25}}>{this.props.place.name}</Text>
+          <Text style={{fontSize:15,color:'blue',}}>{this.props.place.bio}</Text>
         </View>
       </Animated.View>
     );
