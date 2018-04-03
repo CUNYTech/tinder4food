@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTRedBoxExtraDataViewController.h

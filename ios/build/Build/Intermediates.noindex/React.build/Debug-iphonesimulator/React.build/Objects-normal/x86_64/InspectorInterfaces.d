@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h

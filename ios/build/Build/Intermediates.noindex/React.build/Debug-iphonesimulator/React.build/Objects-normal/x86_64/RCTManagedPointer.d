@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTManagedPointer.h

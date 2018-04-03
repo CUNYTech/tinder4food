@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTDefines.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h

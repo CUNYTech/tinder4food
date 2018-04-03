@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTI18nUtil.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTI18nUtil.h

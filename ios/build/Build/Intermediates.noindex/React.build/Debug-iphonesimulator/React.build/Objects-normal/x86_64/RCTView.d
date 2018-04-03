@@ -1,20 +1,20 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTView.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTView.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTBorderDrawing.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTConvert.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTAnimationType.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTView.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTView.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTBorderDrawing.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTI18nUtil.h

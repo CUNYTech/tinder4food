@@ -1,13 +1,13 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTEventAnimation.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTEventAnimation.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTEventAnimation.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTEventAnimation.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h

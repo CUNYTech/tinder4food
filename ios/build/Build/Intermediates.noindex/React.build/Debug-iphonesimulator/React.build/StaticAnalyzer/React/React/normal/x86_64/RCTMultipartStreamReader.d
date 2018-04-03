@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTMultipartStreamReader.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTMultipartStreamReader.h

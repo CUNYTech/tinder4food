@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTBackedTextInputDelegateAdapter.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTBackedTextInputDelegateAdapter.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/Libraries/Text/RCTBackedTextInputDelegate.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h

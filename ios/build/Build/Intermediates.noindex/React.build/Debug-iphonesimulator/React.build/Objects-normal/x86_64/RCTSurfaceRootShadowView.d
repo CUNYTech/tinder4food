@@ -1,20 +1,21 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowView.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowView.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTShadowView.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTRootView.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/sparkyevangelista/Documents/tinder4food/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowViewDelegate.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTUIManagerUtils.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Modules/RCTI18nUtil.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowView.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowView.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowViewDelegate.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTI18nUtil.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Views/RCTShadowView+Layout.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Modules/RCTUIManagerUtils.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTAssert.h

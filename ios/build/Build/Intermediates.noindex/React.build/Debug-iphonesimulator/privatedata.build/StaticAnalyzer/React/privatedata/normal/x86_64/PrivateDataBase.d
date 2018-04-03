@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.cpp \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.cpp \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/privatedata/PrivateDataBase.h

@@ -9,8 +9,12 @@
 
 #import <React/RCTShadowView.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface RCTRawTextShadowView : RCTShadowView
 
-@property (nonatomic, copy) NSString *text;
+@property (nonatomic, copy, nullable) NSString *text;
 
 @end
+
+NS_ASSUME_NONNULL_END

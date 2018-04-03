@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
-  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
