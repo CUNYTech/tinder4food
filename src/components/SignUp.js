@@ -1,10 +1,10 @@
-import React,  {Component}  from 'react';
-import { Input } from './common'
+import React, { Component } from 'react';
+import { Input } from './common';
 
 class SignUp extends Component {
-  state = {email: '', name: '', phone: ''};
+  state = { email: '', name: '', phone: '' };
 
-  render(){
+  render() {
     return (
       <Input
         label='Input box'
@@ -13,6 +13,6 @@ class SignUp extends Component {
       />
     );
   }
-};
+}
 
 export default SignUp;

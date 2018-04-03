@@ -1,10 +1,4 @@
-import React,  {Component}  from 'react';
-import { AppRegistry, View } from 'react-native';
-import SwipeFunction from './src/components/SwipeFunction';
+import { AppRegistry } from 'react-native';
+import App from './src/index';
 
-const App = () => (
-      <View>
-        <SwipeFunction />
-      </View>
-);
-AppRegistry.registerComponent('tinder4food', () => App);
+AppRegistry.registerComponent('AwesomeProject', () => App);
