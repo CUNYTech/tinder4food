@@ -1,7 +1,7 @@
 # Foody Call
 
 ## Objective
-Foody Call is an application that helps indecisive individuals or groups decide where to eat
+Foody Call is an application that helps indecisive individuals or groups decide where to eat based on images.
 
 ## Problem 
 Living in a big city like New York it can be challenging to decide on what to eat. Even though there are companies that can issue like Yelp, it can still be challenging deciding on what to eat due to so much information.
