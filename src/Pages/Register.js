@@ -26,8 +26,7 @@ export default class Register extends Component {
     mobile: '',
     password: '',
     confirm_password: '',
-    first_name: '',
-    last_name: '',
+    firstname: '',
     errorfirstname: '',
     errorlastname: '',
     erroremail: '',
@@ -49,14 +48,14 @@ export default class Register extends Component {
       errorlastname: '',
       errornon_field_errors: ''
     });
-
-    const { email, username, mobile, password, confirm_password, first_name, last_name } = this.state;
-    axios.post('http://foodiecallapi-dev.us-east-1.elasticbeanstalk.com/foodycallAPI/v1/auth/register/', { email, username, mobile, password, confirm_password, first_name, last_name })
-      // if (response === 200) {
-        const loginCredintial = { response.mobile, response.password }; //stores the new input for register
-        this.storeCredintial(loginCredintial);//
+    const { email, username, mobile, password, confirm_password, firstname, lastname } = this.state;
+    axios.post('http://127.0.0.1:8000/foodycall_back/v1/auth/register/', { email, username, mobile, password, confirm_password, firstname, lastname })
+    .then((response) => {
+      if (response.status === 201) {
+        const loginCredintial = { mobile, password };
+        this.storeCredintial(loginCredintial);
         this.props.navigation.navigate('MainPage');
-      // }
+      }
     })
     .catch((error) => {
       this.setState({
@@ -65,11 +64,11 @@ export default class Register extends Component {
         errormobile: error.response.data.mobile,
         errorpassword: error.response.data.password,
         errorconfirm_password: error.response.data.confirm_password,
-        errorfirstname: error.response.data.first_name,
-        errorlastname: error.response.data.last_name,
+        errorfirstname: error.response.data.firstname,
+        errorlastname: error.response.data.lastname,
         errornon_field_errors: error.response.data.non_field_errors
       });
-      // console.log(error);
+      //console.log(error.response.data);
     });
   }
 
