@@ -72,7 +72,7 @@ class SwipeCard extends Component {
 
         <View style={styles.CardDescriptionStyles}>
           <Text style={{fontSize:25}}>{this.props.place.name}</Text>
-          <Text style={{fontSize:15,color:'blue',}}>{this.props.place.phone}</Text>
+          <Text style={{fontSize:15,color:'blue',}}>{this.props.place.location.display_address}</Text>
         </View>
       </Animated.View>
     );

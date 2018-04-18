@@ -13,11 +13,11 @@ export default class Login extends Component {
     gesturesEnabled: false
   }
 
-  state = { 
-    mobile: '+11234567890', 
-    password: 'fake', 
-    errorMobile: '', 
-    errorPasseord: '', 
+  state = {
+    mobile: '+11234567890',
+    password: 'fake',
+    errorMobile: '',
+    errorPasseord: '',
     nonFieldErrors: '',
  }
 
@@ -27,29 +27,29 @@ export default class Login extends Component {
 
 
   onButtonPress = (mobile, password) => {
-    // this.setState({
-    //   errorMobile: '', 
-    //   errorPasseord: '', 
-    //   non_field_errors: '' });
-    //     axios.post('http://127.0.0.1:8000/foodycall_back/v1/auth/login/', { mobile, password })
-    //     .then((response) => {
-    //       if (response.status === 200) {
-    //         const loginCredintial = { mobile, password };
-    //         this.storeCredintial(loginCredintial);
-    //         this.props.navigation.navigate('MainPage', { Token: response.data.token });
-    //       }
-    //     })
-    //     .catch((error) => {
-    //       this.setState({
-    //         errorMobile: error.response.data.mobile, 
-    //         errorPasseord: error.response.data.password, 
-    //         nonFieldErrors: error.response.data.non_field_errors 
-    //       });
-    //       //console.log(error.response.data);
-    //     });
+    this.setState({
+      errorMobile: '',
+      errorPasseord: '',
+      non_field_errors: '' });
+        axios.post('http://foodiecallapi-dev.us-east-1.elasticbeanstalk.com/foodycallAPI/v1/auth/login/', { mobile, password })
+        .then((response) => {
+          if (response.status === 200) {
+            const loginCredintial = { mobile, password };
+            this.storeCredintial(loginCredintial);
+            this.props.navigation.navigate('MainPage', { Token: response.data.token });
+          }
+        })
+        .catch((error) => {
+          this.setState({
+            errorMobile: error.response.data.mobile,
+            errorPasseord: error.response.data.password,
+            nonFieldErrors: error.response.data.non_field_errors
+          });
+          //console.log(error.response.data);
+        });
         this.props.navigation.navigate('MainPage');
   }
-  
+
   async storeCredintial(arg) {
     try {
       await AsyncStorage.setItem(ACCESS_TOKEN, JSON.stringify(arg));
@@ -89,7 +89,7 @@ export default class Login extends Component {
           </View>
 
           <Text style={styles.errorText}>{this.state.nonFieldErrors}</Text>
-          
+
           <Input
             style={styles.inputStyle}
             underlineColorAndroid={'rgba(0,0,0,0)'}
@@ -115,12 +115,12 @@ export default class Login extends Component {
             onChangeText={(val) => this.setState({ password: val })}
             errorText={this.state.errorPasseord}
           />
-              
+
           <Button
             buttonStyle={styles.buttonStyle}
             buttonTextStyle={styles.buttonText}
             buttonText={'Login'}
-            onPress={() => this.onButtonPress(this.state.mobile, this.state.password)} 
+            onPress={() => this.onButtonPress(this.state.mobile, this.state.password)}
           />
 
           <View style={styles.option2}>
@@ -154,7 +154,7 @@ option2: {
     justifyContent: 'center',
     flexDirection: 'row',
   },
-  
+
   logoText: {
     fontSize: 50,
     fontWeight: '500',

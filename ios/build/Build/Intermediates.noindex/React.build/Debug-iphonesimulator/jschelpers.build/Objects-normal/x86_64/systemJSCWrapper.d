@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
-  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/jschelpers/systemJSCWrapper.cpp \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/React/../ReactCommon/jschelpers/JSCWrapper.h

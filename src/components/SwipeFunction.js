@@ -15,9 +15,9 @@ class SwipeFunction extends Component {
 
   state = { businesses: [], profileIndex: 0 };
 
-  componentWillMount() {
-    axios.get('https://api.yelp.com/v3/businesses/search', config)
-    .then(response => this.setState({ businesses: response.data.businesses }));
+    componentWillMount() {
+      axios.get('https://api.yelp.com/v3/businesses/search', config)
+      .then(response => this.setState({ businesses: response.data.businesses }));
     }
 
   upcomingCard = () => {
@@ -28,7 +28,7 @@ class SwipeFunction extends Component {
 
   render() {
     const {profileIndex, businesses} = this.state;
-    console.log(businesses);
+    // console.log(businesses);
 
     return (
      <View style={{flex:1}}>

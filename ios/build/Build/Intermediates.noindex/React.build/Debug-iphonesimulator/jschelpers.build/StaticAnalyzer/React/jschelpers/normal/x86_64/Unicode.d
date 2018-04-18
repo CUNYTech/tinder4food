@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
-  /Users/siammridha/Reactnactive/AwesomeProject/node_modules/react-native/ReactCommon/jschelpers/Unicode.h
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/jschelpers/Unicode.cpp \
+  /Users/sparkyevangelista/Documents/tinder4food/node_modules/react-native/ReactCommon/jschelpers/Unicode.h

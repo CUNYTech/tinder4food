@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { 
-  StyleSheet, 
-  View, 
-  Text, 
-  ImageBackground, 
-  ScrollView, 
-  AsyncStorage, 
+import {
+  StyleSheet,
+  View,
+  Text,
+  ImageBackground,
+  ScrollView,
+  AsyncStorage,
   Dimensions } from 'react-native';
 import axios from 'axios';
 import Button from '../Components/Button';
@@ -20,55 +20,56 @@ export default class Register extends Component {
     gesturesEnabled: false
   }
 
-  state = { 
-    email: '', 
-    username: '', 
-    mobile: '', 
-    password: '', 
-    confirm_password: '', 
-    firstname: '',
+  state = {
+    email: '',
+    username: '',
+    mobile: '',
+    password: '',
+    confirm_password: '',
+    first_name: '',
+    last_name: '',
     errorfirstname: '',
     errorlastname: '',
-    erroremail: '', 
-    errorusername: '', 
-    errormobile: '', 
-    errorpassword: '', 
-    errorconfirm_password: '', 
+    erroremail: '',
+    errorusername: '',
+    errormobile: '',
+    errorpassword: '',
+    errorconfirm_password: '',
     errornon_field_errors: '',
   }
 
   onButtonPress() {
     this.setState({
-      erroremail: '', 
-      errorusername: '', 
-      errormobile: '', 
-      errorpassword: '', 
-      errorconfirm_password: '', 
-      errorfirstname: '', 
+      erroremail: '',
+      errorusername: '',
+      errormobile: '',
+      errorpassword: '',
+      errorconfirm_password: '',
+      errorfirstname: '',
       errorlastname: '',
-      errornon_field_errors: '' 
+      errornon_field_errors: ''
     });
-    const { email, username, mobile, password, confirm_password, firstname, lastname } = this.state;
-    axios.post('http://127.0.0.1:8000/foodycall_back/v1/auth/register/', { email, username, mobile, password, confirm_password, firstname, lastname })
-    .then((response) => {
-      if (response.status === 201) {
-        const loginCredintial = { mobile, password };
-        this.storeCredintial(loginCredintial);
+
+    const { email, username, mobile, password, confirm_password, first_name, last_name } = this.state;
+    axios.post('http://foodiecallapi-dev.us-east-1.elasticbeanstalk.com/foodycallAPI/v1/auth/register/', { email, username, mobile, password, confirm_password, first_name, last_name })
+      // if (response === 200) {
+        const loginCredintial = { response.mobile, response.password }; //stores the new input for register
+        this.storeCredintial(loginCredintial);//
         this.props.navigation.navigate('MainPage');
-      }
+      // }
     })
     .catch((error) => {
       this.setState({
-        erroremail: error.response.data.email, 
-        errorusername: error.response.data.username, 
-        errormobile: error.response.data.mobile, 
-        errorpassword: error.response.data.password, 
-        errorconfirm_password: error.response.data.confirm_password, 
-        errorfirstname: error.response.data.firstname, 
-        errorlastname: error.response.data.lastname,
+        erroremail: error.response.data.email,
+        errorusername: error.response.data.username,
+        errormobile: error.response.data.mobile,
+        errorpassword: error.response.data.password,
+        errorconfirm_password: error.response.data.confirm_password,
+        errorfirstname: error.response.data.first_name,
+        errorlastname: error.response.data.last_name,
         errornon_field_errors: error.response.data.non_field_errors
       });
-      //console.log(error.response.data);
+      // console.log(error);
     });
   }
 
@@ -173,11 +174,11 @@ export default class Register extends Component {
             buttonStyle={styles.buttonStyle}
             buttonTextStyle={styles.buttonText}
             buttonText={'Register'}
-            onPress={() => this.onButtonPress()} 
+            onPress={() => this.onButtonPress()}
             />
           <View style={styles.option2}>
           <Text style={styles.singUpText}>Already Have an account? </Text>
-          <Text 
+          <Text
             style={styles.singUpText}
             onPress={() => this.props.navigation.goBack()}
           >Sign in
