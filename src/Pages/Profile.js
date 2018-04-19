@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
     View,
     Image,
+    ImageBackground,
     StyleSheet,
     ScrollView,
 } from 'react-native';
@@ -43,6 +44,7 @@ export default class ProfilePage extends Component {
 
       <View style ={{flex:1}}>
           <Header>
+          <Text style = {styles.textStyle}> Profile </Text>
           <Right>
           <Button transparent onPress={() => this.props.navigation.goBack()}>
             <Icon name='arrow-forward' active />
@@ -53,22 +55,27 @@ export default class ProfilePage extends Component {
           <View style={styles.container}>
 
             <View style={styles.profilePicture}>
-              <Image style={styles.imageStyle}
-                source={require('../Image/Profile.png')}>
-              </Image>
+            <ImageBackground
+              style={styles.back}
+              blurRadius={9}
+              source={require('../Image/jamesPicture.jpg')}>
+                <Image style={styles.imageStyle}
+                  source={require('../Image/jamesPicture.jpg')}>
+                </Image>
+            </ImageBackground>
             </View>
 
             <View>
               <CardSection>
-                <Text style={styles.textStyle}>Name: </Text>
+                <Text style={styles.nameStyle}>Name: Luke Hemsworth </Text>
               </CardSection>
             </View>
 
-            <View>
-              <Text style={styles.textStyle}> History </Text>
+            <View style ={{backgroundColor:'black'}}>
+              <Text style={styles.textStyle}> - History - </Text>
             </View>
 
-            <ScrollView style ={{flex:1}}>
+            <ScrollView style={{flex:1}}>
               {this.renderPlaces()}
             </ScrollView>
 
@@ -89,13 +96,17 @@ const styles = StyleSheet.create({
   imageStyle: {
     // borderColor: 'white',
     // borderWidth: 2,
-    height: '100%',
-    width: '100%',
+    height: '50%',
+    width: '48%',
+    backgroundColor: 'rgba(255,255,255,0.9)',
+    borderRadius: 50,
+    paddingBottom: 50,
+    borderWidth: 2
+
   },
 
   profilePicture: {
     flex:1,
-    borderRadius: 1,
     alignItems: 'center',
     justifyContent: 'center',
     shadowColor: '#000',
@@ -104,7 +115,7 @@ const styles = StyleSheet.create({
     elevation: 2,
     position: 'relative',
     borderColor: '#000',
-    borderWidth: 2,
+    borderWidth: .5,
 
   },
 
@@ -112,10 +123,21 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#FFEEE4',
   },
-  textStyle: {
+  nameStyle: {
+    flex:1,
     color: 'black',
-    fontSize: 15,
-    fontWeight: 'bold'
+    fontFamily:'Cochin'
   },
-
+  textStyle: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    alignSelf: "center",
+    color:"white"
+  },
+  back: {
+    height: '100%',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }
 });
